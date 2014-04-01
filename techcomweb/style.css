@@ -1,0 +1,175 @@
+body{
+	font-family: Arvo, Helvetica ;
+}
+
+.title1{
+	font-size: 100px;
+	height: 100px;
+	text-align: right;
+	display: none;
+}
+
+.title2{
+	color: #FFB52E;
+	font-size: 100px;
+	height: 100px;
+	text-align: right;
+	display: none;
+}
+
+.lime{
+	border: 5px solid #B5FF2E;
+}
+
+.pinkborder{
+	border: 5px solid #FF2EB5;
+}
+
+.pink{
+	background-color: #FF2EB5;
+}
+
+.blueborder{
+	border: 5px solid #2EB5FF;	
+}
+
+.blue{
+	background-color: #2EB5FF;
+}
+
+.orangeborder{
+	border: 5px solid #FFB52E;
+}
+
+.orange{
+	background-color: #FFB52E;
+	color: white;
+}
+
+.teal{
+	border: 5px solid #2EFFB5;
+}
+
+.buttons{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	margin: 5px;
+}
+
+.buttonbox{
+	width: 300px;
+	height: 80px;
+}
+
+#mainbutton{
+	margin: 0px auto;
+	margin-top: 100px;
+	padding: 5px;
+	font-size: 50px;
+	text-align: center;
+}
+
+#titlebox1{
+	height: 300px;
+	border: 5px solid red;
+}
+
+#titlebox2{
+	height: 150px;
+	border: 5px solid red;
+}
+
+#page1{
+	width: 1024px;
+	height: 800px;
+	border: 3px solid black;
+	margin: 0px auto;
+}
+
+#page2{
+	width: 1024px;
+	height: 800px;
+	border: 3px solid black;
+	margin: 0px auto;
+}
+
+.fa-arrow-left{
+	font-size: 25px;
+	text-align: center;
+}
+
+.fa-arrow-right{
+	font-size: 25px;
+	text-align: center;
+}
+
+.fa-bars{
+	font-size: 25px;
+	text-align: center;
+}
+
+.fa-info{
+	font-size: 25px;
+	text-align: center;
+}
+
+.content{
+	width: 800px;
+	height: 500px;
+	border: 3px solid blue;
+	margin: 0px auto;
+}
+.topbar{
+	position: fixed;
+	top: 0px;
+	height: 60px;
+	border: 3px red solid;
+	right: 0px;
+}
+
+.bottombar{
+	position: fixed;
+	bottom: 0px;
+	height: 60px;
+	border: 3px red solid;
+	right: 0px;
+}
+
+#menubar{
+	width: 300px;
+	height: 0px;
+	background-color: grey;
+	display: inline-block;
+	opacity: 0.8;
+	overflow: hidden;
+}
+
+.right{
+	float: right;
+}
+
+.leftbar{
+	width: 80px;
+	position: fixed;
+	left: 0px;
+	height: 800px;
+	border: 3px solid red;
+}
+
+
+
+.menubutton{
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+	border: 3px blue solid;
+}
+
+#startword{
+	display: none;
+	position: relative;
+}
