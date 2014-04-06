@@ -1,0 +1,21 @@
+
+/* 
+	1- Border of the box needs to be changed
+	2- Code box needs to be centered
+
+	font color & text background looks good
+*/
+.codebox {
+    /* Below are styles for the codebox (not the code itself) */
+    border:1px solid black;
+    background-color:#FFFFFF;
+    width:300px;
+    overflow:auto;    
+    padding:10px;
+}
+
+.codebox code {
+    /* Styles in here affect the text of the codebox */
+    font-size:0.9em;
+    /* You could also put all sorts of styling here, like different font, color, underline, etc. for the code. */
+}
