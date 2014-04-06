@@ -1,0 +1,22 @@
+Welcome, here we will teach you how to set up an Apache webserver on Linux. But before we get started, we would like to give you enough knowledge about webservers. With those fundamentals that you will acquire, you will be able to enjoy and dig the experience.  
+A webserver can be a software or hardware that helps you maintain a web service and web content. This web service can be for: data storage, maintaining email, gaming, handling a website, or FTP purposes. 
+The main purpose of a webserver is to provide content to store, process and deliver web pages to clients. This is done through HTML (Hyper Text Markup Language) that allows the communication between the client and the server. 
+A web browser is usually used to translate the HTML files to the content that we see. 
+Webservers can also be embedded on devices such as printers, routers and webcams to administer the device on a local network. This allows maintenance and administration without installing additional software on the computer. 
+In order to access a webserver, you need an address. This address is always unique, and it is called an IP address. The IP address can exist in a form of a domain name like this:. The whole path is called a URL. 
+When you enter a URL in your browser, you send a request to the webserver serving this website. The server in return, finds the page, and sends it back to your browser. 
+Note: any computer can become a werbserver, by installing a server software and connecting the machine to the internet. 
+There are many web server programs, these include Apache, Microsoft Internet Information Server (IIS), Nginx, 
+Considerations in choosing a Web server include how well it works with the operating system and other servers, its ability to handle server-side programming, security characteristics, and publishing, search engine, and site building tools that may come with it.
+ 
+Links: FTP, email, gaming server, website, web page, HTML documents.  
+In other words, anyone interested in maintaining a website of any type will need to create a webserver. 
+What is Apache? 
+Apache is a webserver program that provides all of those mentioned functionalities. It is maintained by an open community of developers. 
+Why Apache? 
+As of June 2013, Apache was estimated to serve 54.2% of all active websites and 53.3% of the top servers across all domains. (source: Wikipedia)  
+For example, Carnegie Mellon University uses Apache as their webserver
+It has been running for over 15 years, so it is quite secure
+It is widely popular and constantly updated by developers. 
+Why Linux? 
+We have selected Linux because of its easy access and use. Most secure companies use Linux to set up their infrastructure. 
