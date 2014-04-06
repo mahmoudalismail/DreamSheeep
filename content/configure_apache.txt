@@ -1,0 +1,63 @@
+
+
+********** START OF PAGE 2 ************
+Once you have installed Apache correctly, Apache will be added to the init.d list. The init.d list is the list that contains all the programs that are excuted when you boot (start) the machine.
+
+** there are equivalent commands to run the commands below
+** through sudo service apache2 [start, stop, restart] 
+Running Apache2 Server
+Run the following command to start the Apache server
+	**code box start**
+	sudo /etc/init.d/apache start
+	**code box end**
+	sudo = run program with superuse privilges 
+	/etc/init.d/apache = run program apache from path /etc/init.d/
+	start = apache command to start the server
+
+Stopping Apache2 Server
+	**code box start**
+	sudo /etc/init.d/apache stop
+	**code box end**
+	sudo = run program with superuse privilges 
+	/etc/init.d/apache = run program apache from path /etc/init.d/
+	start = apache command to stop the server
+
+
+Restarting Apache2 Server
+	**code box start**
+	sudo /etc/init.d/apache restart
+	**code box end**
+	sudo = run program with superuse privilges 
+	/etc/init.d/apache = run program apache from path /etc/init.d/
+	start = apache command to restart the server
+
+
+Checking Apache2 Status
+I need more information on this!!
+
+Where does Apache store its files?
+
+When the user access the ***hyperlink start**http://localhost**hyperlink end** or **hyperlink start**http://127.0.0.1**hyperlink end**, the server will serve the user with the files contained in the "/var/www/" directory. The "/var/www/" is the default directory where Apache stores its files to be served. 
+
+What is the "index.html" page?
+The index.html contained in the "/var/www/" directory is the page the user is redirected to when they visit the root domain name (e.g. "http://localhost" or "www.example.com"). 
+
+## include more info about "index.html" page in sub-directories ## 
+
+How Can You Change The Default Files Directory?
+
+If you would like to change the directory Apache points to when you serve the user (e.g. serve from "/home/user/personal_website/" instead "/var/www/"), run the following command
+	**code box start**
+	gksu gedit /etc/apache2/sites-enabled/000-default
+	**code box end**
+The above command will open the 000-default file which is the default configuration file for the current enabled sites in a text editor called "gedit". You can use other text editors by changing the command "gedit" with your preferable text editor (e.g. sublime, vi, vim, nano,...etc.) 
+On the first VirtualHost box, 
+	1- Change DocumentRoot /var/www/ to DocumentRoot /your/directory/ (e.g. DocumentRoot /home/user/personal_website/ )
+	2- Change <Directory /var/www/> to <Directory /your/directory/> (e.g. <Directory /home/user/personal_website/> )	
+
+Save the changes and restart the server with the following command
+	**code box start**
+	sudo /etc/init.d/apache2 restart
+	**code box end**
+
+********* END OF PAGE 2 ***************

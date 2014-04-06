@@ -1,0 +1,26 @@
+
+Apache is commonly known to run on Linux. We will show you how to install Apahce 2.0 on Ubuntu 12.04 LTS.
+
+************* START OF PAGE 1 *********
+
+Installing Apache
+
+There are many ways to install Apache on Ubuntu. The three common ways are:
+	
+	1- Using Synaptic Package Manager (I need more information)
+	2- Using Ubuntu Software Center (Go to USC, and search "apache2"
+	3- Using the terminal (notice that this is the most common)
+		** code box start **
+		sudo apt-get install apache2
+		** code box end **
+		sudo = run program with superuser privilges
+		apt-get = program called "Advanced Packaging Tool" (APT) that interfaces with the command-line "terminal" to handle packages
+		install = APT command to install or upgrade a package. The name of the package you would like to install is followed by the install command
+
+Notice that once you run the above code in the terminal, the installation process will start and you will be seeing a lot of text/commands/requests in the terminal. If the installation process finishes queitly and you do not see any errors, then apache2 has been installed correctly. If not, then proceed to our **hyperlink starts**troubleshooting**hyperlink end** guide. 
+
+************ END OF PAGE 1 **************
+
+At this point, we expect you have Apache2 running correctly your machine. We will proceed to the Configuration Section where we explain where Apache2 is and how could you configure it.  
+
+Apache2 instanstly runs once it had been installed. To see the web server in action, open your preferable browser and go to ***hyperlink start**127.0.0.1**hyperlink end**. The above IP (Internet Protocol) address is the local IP address Apache is running on. You should be seeing the default "it works" message/page. [We need to include a screenshot]  
